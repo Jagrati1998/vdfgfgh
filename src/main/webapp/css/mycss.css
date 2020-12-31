@@ -1,0 +1,371 @@
+.navfont {
+    font-size: 40px;
+}
+.navfontlink {
+    font-size: 20px;
+}
+
+.padding {
+    max-width: 500px;
+    align-self: auto;
+}
+
+.form {
+    width: 50%;
+    padding: 10px;
+    max-width: 500px;
+     text-align: center;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    max-width: 500px;
+}
+.center2 {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+    background-color:ghostwhite;
+     
+}
+.form-center{
+	width:100%;
+	 text-align: center;
+	
+}
+.noticepanel::-webkit-scrollbar {
+    display: none;
+}
+
+.noticepanel {
+    max-height: 450px;
+    overflow: scroll;
+    border-width: 2px;
+    border-style: outset;
+    border-color: #4CAF50;
+    border-radius: 10px;
+}
+.maincontent {
+   background-color: ghostwhite;
+}
+
+
+.notice {
+    margin: auto;
+    background-color: #4CAF50;
+    padding: 5px;
+    color: white;
+    border-width: 2px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: darkgreen;
+}
+.myscroolbar {
+    
+}
+a.two:link {
+    color: #4CAF50;
+}
+
+a.two:visited {
+    color: #0000ff;
+}
+
+a.two:hover {
+    font-size: 150%;
+}
+.two{
+    font-size:18px;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #45a049;
+    }
+.news-item1 extlnks {
+    font-size: 20px;
+}
+.horizental_scrool {
+    padding-top:5px;
+
+    
+}
+.image_container {
+    position: relative;
+    margin: 0 auto; /* Center it */
+   
+   
+}
+
+.image_container .content {
+    position: absolute; /* Position the background text */
+    top: 20Px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 100%; /* Full width */
+    padding: 20px; /* Some padding */
+}
+
+
+
+
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    opacity: 1;
+}
+
+    #myImg1:hover {
+        opacity: 0.7;
+    }
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+.imagecenter {
+  
+  
+   
+    
+}
+.image_gallery {
+    background-color: ghostwhite;
+    overflow:scroll;
+}
+.whole_image {
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 91%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+.imagecenter:hover .overlay {
+    opacity: 1;
+}
+.map {
+    width:100%;
+    
+}
+.course_heading_bar {
+    background-color: ghostwhite;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.course_heading{
+    padding:10px;
+}
+.heading {
+    color: #4CAF50;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+}
+.course_desc{
+    margin:auto;
+    width:50%;
+    text-align:center;
+}
+.course_bar {
+    background-color: #4CAF50;
+    width: 80%;
+    height:1px;
+    text-align: center;
+    
+}
+Col-sm-4 .contact {
+  
+    bottom: 0Px; /* At the bottom. Use top:0 to append it to the top */
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0); /* Black background with 0.5 opacity */
+    color: black; /* Grey text */
+}
+.contact_info{
+    margin:auto;
+    text-align:center;
+    
+
+}
+.contact_menu {
+    max-height: 50px;
+}
+.admission {
+    max-width: 400px;
+    
+}
+.contact_links {
+    position: initial;
+    padding-top:300px;
+    background-color:ghostwhite;
+    height:50px;
+    text-align:center;
+}
+
+.linkaccount {
+    margin: 2px;
+    text-align: center;
+}
+.fotter {
+    padding-top: 100px;
+   
+}
+.copyright {
+    height:70px;
+    background-color: #ff8000;
+    text-align:center;
+}
+.copyright-heading {
+    padding-top: 15px;
+}
+.navbar-dark {
+    background-color: #4CAF50;
+}
+.studentinfo{
+	background-color: #ff8000;
+	
+}
+.password{
+	
+		font-size: 1.3em;
+	}
+.welcomePage{
+	
+	height:70px;
+	width:500px;
+	 background-color:#ff8000;
+	 text-align:center;
+}
+.studentdetail{
+	width:50%;
+	margin:auto;
+	padding: 10px;
+	background-color:ghostwhite;
+	 
+}
+.studentdetailmain{
+	 padding: 10px;
+	width:100%;
+	margin :auto;
+	
+	height:1800px;
+	background-color:ghostwhite;
+}
+.adminpage
+{
+	margin-top:30px;
+}
